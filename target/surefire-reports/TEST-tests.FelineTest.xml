@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests.FelineTest" time="0.0" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/ekaterinakomarova/qa_java/target/test-classes:/Users/ekaterinakomarova/qa_java/target/classes:/Users/ekaterinakomarova/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/ekaterinakomarova/.m2/repository/org/mockito/mockito-core/3.12.4/mockito-core-3.12.4.jar:/Users/ekaterinakomarova/.m2/repository/net/bytebuddy/byte-buddy/1.11.13/byte-buddy-1.11.13.jar:/Users/ekaterinakomarova/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.13/byte-buddy-agent-1.11.13.jar:/Users/ekaterinakomarova/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/Users/ekaterinakomarova/.m2/repository/io/github/bonigarcia/webdrivermanager/5.2.1/webdrivermanager-5.2.1.jar:/Users/ekaterinakomarova/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/ekaterinakomarova/.m2/repository/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar:/Users/ekaterinakomarova/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/ekaterinakomarova/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/ekaterinakomarova/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/ekaterinakomarova/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/ekaterinakomarova/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/ekaterinakomarova/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/ekaterinakomarova/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/ekaterinakomarova/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/ekaterinakomarova/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/Users/ekaterinakomarova/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/ekaterinakomarova/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/ekaterinakomarova/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/ekaterinakomarova/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/ekaterinakomarova/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/ekaterinakomarova/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/ekaterinakomarova/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/ekaterinakomarova/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/ekaterinakomarova/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/ekaterinakomarova/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/ekaterinakomarova/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/ekaterinakomarova/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/ekaterinakomarova/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/ekaterinakomarova/qa_java/target/surefire/surefirebooter-20250326180414899_3.jar /Users/ekaterinakomarova/qa_java/target/surefire 2025-03-26T18-04-14_853-jvmRun1 surefire-20250326180414899_1tmp surefire_0-20250326180414899_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/ekaterinakomarova/qa_java/target/test-classes:/Users/ekaterinakomarova/qa_java/target/classes:/Users/ekaterinakomarova/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/ekaterinakomarova/.m2/repository/org/mockito/mockito-core/3.12.4/mockito-core-3.12.4.jar:/Users/ekaterinakomarova/.m2/repository/net/bytebuddy/byte-buddy/1.11.13/byte-buddy-1.11.13.jar:/Users/ekaterinakomarova/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.13/byte-buddy-agent-1.11.13.jar:/Users/ekaterinakomarova/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/Users/ekaterinakomarova/.m2/repository/io/github/bonigarcia/webdrivermanager/5.2.1/webdrivermanager-5.2.1.jar:/Users/ekaterinakomarova/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/ekaterinakomarova/.m2/repository/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar:/Users/ekaterinakomarova/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/ekaterinakomarova/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/ekaterinakomarova/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/ekaterinakomarova/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/ekaterinakomarova/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/ekaterinakomarova/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/ekaterinakomarova/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/ekaterinakomarova/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/ekaterinakomarova/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/Users/ekaterinakomarova/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/ekaterinakomarova/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/ekaterinakomarova/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/ekaterinakomarova/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/ekaterinakomarova/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/ekaterinakomarova/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/ekaterinakomarova/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/ekaterinakomarova/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/ekaterinakomarova/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/ekaterinakomarova/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/ekaterinakomarova/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/ekaterinakomarova/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/ekaterinakomarova/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/ekaterinakomarova"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/ekaterinakomarova/qa_java"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/ekaterinakomarova/qa_java/target/surefire/surefirebooter-20250326180414899_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23.0.1+11-39"/>
+    <property name="user.name" value="ekaterinakomarova"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/ekaterinakomarova/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/t8/8f6l4xyn3jz05jfpmwpl8db00000gn/T/"/>
+    <property name="idea.version" value="2024.3.1.1"/>
+    <property name="java.version" value="23.0.1"/>
+    <property name="user.dir" value="/Users/ekaterinakomarova/qa_java"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ekaterinakomarova/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.1+11-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="checkFelineKittensNonDefaultValue" classname="tests.FelineTest" time="0.0"/>
+  <testcase name="checkFelineKittensDefaultValue" classname="tests.FelineTest" time="0.0"/>
+  <testcase name="checkFelineFamily" classname="tests.FelineTest" time="0.0"/>
+  <testcase name="checkFelineFoodVeganVariant" classname="tests.FelineTest" time="0.0"/>
+  <testcase name="checkFelineFoodMeatVariant" classname="tests.FelineTest" time="0.0"/>
+</testsuite>
