@@ -1,0 +1,4 @@
+tests/LionTest.class
+tests/CatTest.class
+tests/AnimalParameterizedTest.class
+tests/FelineTest.class
