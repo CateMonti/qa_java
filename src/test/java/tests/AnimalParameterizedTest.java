@@ -50,3 +50,4 @@ public class AnimalParameterizedTest {
         Assert.assertEquals(animal.getFamily(), mockedAnimal.getFamily());
     }
 }
+

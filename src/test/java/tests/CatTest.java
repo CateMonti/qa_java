@@ -25,3 +25,4 @@ public class CatTest {
         Assert.assertEquals(Arrays.asList("Животные", "Птицы", "Рыба"), cat.getFood());
     }
 }
+

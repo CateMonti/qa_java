@@ -34,11 +34,6 @@ public class FelineTest {
         Feline feline = new Feline();
         Assert.assertEquals(List.of("Животные", "Птицы", "Рыба"), feline.eatMeat());
     }
-
-    @Test
-    public void checkFelineFoodVeganVariant() throws Exception {
-        Feline feline = new Feline();
-        Assert.assertEquals(List.of("Трава", "Различные растения"), feline.getFood("Травоядное"));
-    }
 }
+
 

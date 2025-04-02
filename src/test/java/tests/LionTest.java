@@ -2,6 +2,7 @@ package tests;
 
 import com.example.Feline;
 import com.example.Lion;
+import com.example.Predator;
 import org.junit.Assert;
 import org.junit.Test;
 import org.mockito.Mockito;
@@ -14,9 +15,9 @@ public class LionTest {
 
     @Test
     public void checkLionFood() throws Exception {
-        Feline feline = Mockito.mock(Feline.class);
-        Mockito.when(feline.getFood("Хищник")).thenReturn(Arrays.asList("Животные", "Птицы", "Рыба"));
-        Lion lion = new Lion("Самец", feline);
+        Predator predator = Mockito.mock(Predator.class);
+        Mockito.when(predator.getFood("Хищник")).thenReturn(Arrays.asList("Животные", "Птицы", "Рыба"));
+        Lion lion = new Lion("Самец", predator);
         Assert.assertEquals(Arrays.asList("Животные", "Птицы", "Рыба"), lion.getFood());
     }
 
@@ -42,9 +43,10 @@ public class LionTest {
 
     @Test
     public void checkLionKittens() throws Exception {
-        Feline feline = Mockito.mock(Feline.class);
-        Mockito.when(feline.getKittens()).thenReturn(DEFAULT_AMOUNT_OF_KITTENS);
-        Lion lion = new Lion("Самец", feline);
+        Predator predator = Mockito.mock(Predator.class);
+        Mockito.when(predator.getKittens()).thenReturn(DEFAULT_AMOUNT_OF_KITTENS);
+        Lion lion = new Lion("Самец", predator);
         Assert.assertEquals(DEFAULT_AMOUNT_OF_KITTENS, lion.getKittens());
     }
 }
+
